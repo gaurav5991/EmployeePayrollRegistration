@@ -1,12 +1,14 @@
+/* Body Styling */
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  height: 100%;
+  height: max-content;
 }
 
+/* Header Styling */
 .header {
   padding: 15px 0;
   background-color: #ffffff;
@@ -43,7 +45,7 @@ body {
 .emp-payroll {
   color: #42515f;
 }
-
+/* Form Styling */
 .form-content {
   min-height: calc(100% - 80px);
   background-color: #f7f7f7;
